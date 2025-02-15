@@ -129,6 +129,8 @@ nav {
         flex-direction: column;
         position: absolute;
         top: 60px;
+                width: 180px;
+        left: -17px;
         left: 0;
         background:  #1a202c;
         width: 100%;
