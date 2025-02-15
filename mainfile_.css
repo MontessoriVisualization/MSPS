@@ -1,3 +1,4 @@
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -124,15 +125,7 @@ nav {
 }
 
 @media (max-width: 768px) {
-    #nav-menu {
-        display: none;
-        flex-direction: column;
-        width: 137px;
-        background-color: #1a202c;
-        position: absolute;
-        top: 60px;
-        left: -48px;
-    }
+
 .school-name{
     display:none;
 }
@@ -309,15 +302,14 @@ nav {
     #menu-toggle {
         display: block;
     }
-
     #nav-menu {
         display: none;
         flex-direction: column;
-        width: 100%;
+        width: 137px;
         background-color: #1a202c;
         position: absolute;
         top: 60px;
-        left: 0;
+        left: -48px;
     }
 
     #nav-menu.active {
