@@ -127,14 +127,11 @@ nav {
     #nav-menu {
         display: none;
         flex-direction: column;
+        width: 137px;
+        background-color: #1a202c;
         position: absolute;
         top: 60px;
-                width: 180px;
-        left: -17px;
-        left: 0;
-        background:  #1a202c;
-        width: 100%;
-        padding: 10px;
+        left: -48px;
     }
 .school-name{
     display:none;
