@@ -86,6 +86,10 @@ nav {
 #nav-menu a:hover::after {
     width: 100%;
 }
+/*nav menu hover ubderline effect*/
+nav-menu a {
+    position: relative;
+}
 
 /* Dropdown Menu */
 .dropdown-menu {
@@ -209,44 +213,53 @@ nav {
     font-size: 1rem;
     color: #666;
 }
-/*old testinomials*/
+/*What parents say about Msps*/
 .testimonials {
-    background-color: #f4f4f4;
-    padding: 50px 20px;
     text-align: center;
-}
-
-.testimonials h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
 }
 
 .testimonial-slider {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row; /* Arranging items in a row */
+    justify-content: center; /* Center items horizontally */
+    gap: 30px; /* Adding space between testimonials */
+    flex-wrap: wrap; /* Ensures responsiveness */
 }
 
 .testimonial {
-    background-color: white;
+    background: white;
     padding: 20px;
     border-radius: 10px;
-    max-width: 300px;
-    margin: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width to align boxes properly */
+    text-align: center; /* Center text inside the box */
 }
 
-.testimonial p {
+
+.parent-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-start; /* Align image and text */
+}
+
+.parent-img {
+    width: 40px;  /* image size adjustment..Increased image size */
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc; /* Optional: Adds a subtle border */
+}
+
+.parent-name {
+    font-weight: bold;
     font-size: 1rem;
     color: #333;
 }
-
-.testimonial span {
-    font-size: 0.9rem;
-    color: #666;
-    display: block;
-    margin-top: 10px;
-} 
+/*what parents thinks about msps css ended*/
 /*footer part*/
     footer {
     background-color: #1a202c;
