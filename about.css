@@ -92,23 +92,23 @@ nav {
     z-index: 2;
 }
 
-/* Small Images */
-.image-gallery .small-img {
+/* Small Images *//* i will change later*/
+/*.image-gallery .small-img {
     width: 50%;
     border-radius: 10px;
     border: 6px solid #dcdcdc;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
     position: absolute;
-}
+}*/
 
-/* Image Positions */
-.img1 { top: -20px; left: -8px; transform: rotate(-10deg); }
-.img2 { bottom: -20px; right: -8px; transform: rotate(10deg); }
+/* Image Positions *//*i will chnage later or make it new */
+/*.img1 { top: -20px; left: -8px; transform: rotate(-10deg); }
+.img2 { bottom: -20px; right: -8px; transform: rotate(10deg); }*/
 
 /* Responsive */
 @media (max-width: 768px) {
     .image-gallery .main-img { width: 90%; }
-    .image-gallery .small-img { width: 60%; }
+    /*.image-gallery .small-img { width: 60%; }*/
 }
 
 
