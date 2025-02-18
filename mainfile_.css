@@ -189,6 +189,7 @@ nav {
     justify-content: space-around;
     padding: 50px 20px;
     background-color: #fff;
+    gap: 40px;
 }
 
 .feature {
@@ -286,6 +287,7 @@ nav {
 .footer-section p {
     font-size: 1rem;
     color: #ccc;
+    margin-bottom:20px;
 }
 
 .social-icons a {
